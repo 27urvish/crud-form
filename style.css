@@ -20,7 +20,7 @@ h2 {
     margin-bottom: 15px;
 }
 
-label {   
+label {
     font-weight: bold;
     margin-bottom: 5px;
     color: #333;
@@ -60,7 +60,6 @@ input[type="radio"] {
 
 table {
     width: 100%;
-    border-collapse: collapse;
     margin-top: 20px;
 }
 
@@ -71,7 +70,7 @@ th, td {
 }
 
 th {
-    background-color: skyblue   ;
+    background-color: skyblue;
     color: #333;
 }
 
@@ -95,4 +94,13 @@ td button:nth-child(2) {
 
 td button:nth-child(2):hover {
     background-color: #d32f2f;
+}
+
+tr:hover {
+    background-color: whitesmoke;
+}
+
+.hobby{
+    display: flex;
+    gap: 5px;
 }

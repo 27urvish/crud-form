@@ -10,7 +10,7 @@
     <div class="container">
         <h2>CRUD Tutorial</h2>
 
-       <form id="crudForm">
+        <form id="crudForm">
             <div class="form-group">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
@@ -36,6 +36,20 @@
                 </select>
             </div>
 
+            <div class="form-group hobby">
+                <label>Hobbies:</label><br>
+                <input type="checkbox" id="reading" name="hobby" value="Reading">
+                <label for="reading">Reading</label><br>
+                <input type="checkbox" id="travelling" name="hobby" value="Travelling">
+                <label for="travelling">Travelling</label><br>
+                <input type="checkbox" id="sports" name="hobby" value="Sports">
+                <label for="sports">Sports</label><br>
+                <input type="checkbox" id="music" name="hobby" value="Music">
+                <label for="music">Music</label>
+                <input type="checkbox" id="gaming" name="hobby" value="gaming">
+                <label for="gaming">Gaming</label>
+            </div>
+
             <button type="button" id="submitBtn">Submit</button>
         </form>
 
@@ -47,6 +61,7 @@
                         <th>Name</th>
                         <th>Gender</th>
                         <th>Country</th>
+                        <th>Hobbies</th>
                         <th>Actions</th>
                     </tr>
                 </thead>
@@ -56,8 +71,6 @@
             </table>
         </div>
     </div>
-
     <script src="script.js"></script>
-       
 </body>
 </html>
